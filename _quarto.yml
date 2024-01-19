@@ -1,0 +1,88 @@
+project:
+  type: book
+
+book:
+  title: "R for Reproducibility"
+  subtitle: "SoSe24"
+  author: "Daniela Palleschi"
+  date: "01/19/2023"
+  date-format: "ddd, MMM DD, YYYY"
+  twitter-card: true
+  downloads: [pdf]
+  chapters:
+    - part: "Overview"
+      chapters:
+        - index.qmd
+    #     - syllabus.qmd
+    #     - 00-course_overview.qmd
+    # - part: "Day 1: Simple linear regression"
+    #   chapters:
+    #     - 01-equation_of_a_line.qmd
+    #     - 02-simple_linear_regression.qmd
+    #     - 03-continuous_predictors.qmd
+    # - part: "Day 2: Multiple regression"
+    #   chapters:
+    #     - 04-multiple_regression.qmd
+    #     - 05-categorical_predictors.qmd
+    # - part: "Day 3: Logistic regression"
+    #   chapters:
+    #     - 06-logistic_regression.qmd
+    # - part: "Report"
+    #   chapters:
+    #     - reports/report1.qmd
+    # - part: "Mixed models"
+    #   chapters:
+    #     - 07-independence_assumption.qmd
+    #     - 08-mixed_models1.qmd
+
+    # - references.qmd
+
+
+  navbar:
+    right:
+      - icon: home
+        href: https://daniela-palleschi.github.io/
+        text: D. Palleschi
+      - icon: github
+        href: https://github.com/daniela-palleschi/reg4ling
+        aria-label: Source Code
+      - icon: life-preserver
+        href: https://moodle.hu-berlin.de/course/view.php?id=121978
+        aria-label: Course Moodle
+
+bibliography: references.bib
+csl: apa.csl
+
+crossref:
+  exm-prefix: ex.   # (default is "Figure")
+  # labels: alpha a        # (default is arabic)
+  # subref-labels: alpha t # (default is alpha a)
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    include-after-body: custom.html
+    include-in-header: mathjax.html
+    code-tools: true
+    code-overflow: wrap
+    page-layout: full
+    embed-resources: false
+    theme:
+      light: flatly
+      dark: darkly
+  pdf:
+    documentclass: scrreport
+    toc: true
+    toc-depth: 2
+execute:
+  eval: true
+  echo: true
+  message: false
+  error: false
+  warning: false
+  fig-align: "center"
+  fig-asp: .618
+
+
+

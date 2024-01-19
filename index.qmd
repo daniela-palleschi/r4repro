@@ -1,0 +1,45 @@
+---
+author: "Daniela Palleschi"
+institute: Humboldt-Universität zu Berlin
+# footer: "Lecture 1.1 - R und RStudio"
+lang: en
+date: "`r Sys.Date()`"
+format:
+  html:
+    number-sections: true
+    number-depth: 3
+    toc: true
+    code-overflow: wrap
+    code-tools: true
+    self-contained: true
+    fig-width: 6
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    fig-width: 4
+    code-overflow: wrap
+bibliography: references.bib
+csl: apa.csl
+execute: 
+  eval: true # evaluate chunks
+  echo: true # 'print code chunk?'
+  message: false # 'print messages (e.g., warnings)?'
+  error: true # ignore errors when rendering?
+  warning: false
+---
+
+# Course overview {.unnumbered}
+
+This course provides an overview of Open Sciences practices, with an emphasise on the role and implementation of reproducible analyses.
+
+## Materials
+
+This website is a work-in-progress. Materials will be updated/brushed up throughout the semester, with the binding course materials available on the course Moodle for those enrolled in the summer semester 2024.
+
+This website was created to be viewed in HTML format. The accompanying (PDF) book version can be accessed by clicking on the PDF icon at the top right, but is not optimally formatted. Tables formatted for HTML output are particularly oddly formatted in PDF, as is the order of printed elements in relation to their accompanying text. For this reason, I strongly recommend following the web book.
+
+
+
+
+
